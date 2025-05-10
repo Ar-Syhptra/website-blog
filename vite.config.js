@@ -10,4 +10,7 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+    server: {
+        https: true, // Aktifkan HTTPS untuk development (opsional)
+    },
 });
